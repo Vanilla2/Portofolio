@@ -2,6 +2,10 @@ body{
     font-family: 'Work Sans', sans-serif !important;
     background-color: white;
 }
+.body{
+    display: flex;
+    justify-content: center;
+}
 .wrapper{
     display:grid;
     grid-template-areas:
@@ -10,6 +14,7 @@ body{
     "first second third";
     grid-template-columns: 0.3fr 35% 30%;
     grid-gap: 5px 30px;
+    margin: 0 auto;
 }
 body{
     margin-left: 3%;
@@ -30,6 +35,7 @@ body{
 }
 .name-desc{
     font-family: 'Work Sans', sans-serif;
+    white-space: nowrap;
     font-size: 30px;
     font-weight: 700;
 }
@@ -104,7 +110,7 @@ body{
     grid-area: third;
     
 }
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 960px){
     .wrapper{
         grid-template-areas:
         "avatar name"
@@ -113,8 +119,8 @@ body{
         "first first"
         "second second"
         "third third";
-        grid-template-columns: 0.3fr 35%;
-        grid-gap: 5px 30px;
+        grid-template-columns: 0.3fr 0.7fr;
+        grid-gap: 5px 20px;
     }
     .name{
         font-size: 35px;
@@ -145,7 +151,7 @@ body{
         width: 100%;
     }
 }
-@media only screen and (max-width: 520px){
+@media only screen and (max-width: 540px){
     .wrapper{
         grid-template-areas:
         "avatar"

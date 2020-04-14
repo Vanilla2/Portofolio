@@ -1,0 +1,194 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    grid-gap: 13px 15px;
+    grid-template-rows: 6.75%;
+    grid-template-areas: 
+    "exp skl"
+    "exp-b1 sk"
+    "exp-b2 sk"
+    "exp-b3 sk"
+    "exp-b4 sk"
+    "exp-b5 sk";
+}
+.skl-box{
+    grid-area: sk;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.skl-b1{
+    grid-area: p1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.skl-b2{
+    grid-area: p2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.skl-fill{
+    padding-left: 5px;
+    font-size: 17px;
+    color: white;
+    padding: 5px 10px;
+}
+.skl-fill-1{
+    width: 100%;
+    background: rgb(0,146,255);
+}
+.skl-fill-2{
+    width: 100%;
+    background: rgb(0,56,255);
+}
+.skl-fill-3{
+    width: 100%;
+    background: rgb(0, 179, 128);
+    background: linear-gradient(90deg, rgb(0, 156, 112) 15%, rgba(255,255,255,1) 61%);
+}
+.skl-fill-4{
+    width: 100%;
+    background: rgb(242,0,70);
+    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+}
+.skl-fill-5{
+    width: 100%;
+    background: rgb(98,255,161);
+    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+}
+.skl-fill-6{
+    width: 100%;
+    background: rgb(32,117,181);
+    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+}
+.skl-fill-7{
+    width: 100%;
+    background: rgb(172,22,83);
+    background: linear-gradient(90deg, rgba(172,22,83,1) 0%, rgba(255,255,255,1) 51%);
+}
+.skl-fill-8{
+    width: 100%;
+    background: rgb(0,37,147);
+    background: linear-gradient(90deg, rgba(0,37,147,1) 59%, rgba(255,255,255,1) 89%);
+}
+.skl-fill-9{
+    width: 100%;
+    background: rgb(242,0,70);
+    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+}
+.skl-fill-10{
+    width: 100%;
+    background: rgb(98,255,161);
+    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+}
+.skl-fill-11{
+    width: 100%;
+    background: rgb(32,117,181);
+    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+}
+.skl-fill-12{
+    width: 100%;
+    background: rgb(0,37,147);
+    background: linear-gradient(90deg, rgba(0,37,147,1) 59%, rgba(255,255,255,1) 89%);
+}
+.skl-fill-13{
+    width: 100%;
+    background: rgb(242,0,70);
+    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+}
+.skl-fill-14{
+    width: 100%;
+    background: rgb(98,255,161);
+    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+}
+.skl-fill-15{
+    width: 100%;
+    background: rgb(32,117,181);
+    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+}
+
+.skl-obj{
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.exp-b{
+    display: flex;
+    flex-direction: column;
+    border-right: 0.5px solid rgb(230, 230, 230);
+    border-right: 0.5px solid rgb(230, 230, 230);
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+    padding-right: 10px;
+}
+.time{
+    white-space: nowrap;
+    background-color: rgb(54, 166, 180);
+    color:white;
+    height: 30px;
+    font-size: 15px;
+    padding: 8px 5px 0px 5px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+.exp{
+    grid-area: exp;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.skl{
+    grid-area: skl;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.exp-b1{
+    grid-area: exp-b1;
+}
+.exp-b3{
+    grid-area: exp-b3;
+}
+.exp-b2{
+    grid-area: exp-b2;
+}
+.exp-b4{
+    grid-area: exp-b4;
+}
+.exp-b5{
+    grid-area: exp-b5;
+}
+.exp-t{
+    font-size: 25px;
+}
+.exp-des{
+    padding-bottom: 5px;
+}
+.exp-t-box{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+}
+h2{
+    font-size: 30px;
+}
+@media only screen and (max-width: 960px){
+    .wrapper{
+        grid-template-columns: 60% 40%;
+    }
+    .skl-t{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 540px){
+    .wrapper{
+        
+    }
+
+}
