@@ -180,7 +180,7 @@ h2{
 }
 @media only screen and (max-width: 960px){
     .wrapper{
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 65% 35%;
     }
     .skl-t{
         font-size: 25px;
@@ -188,7 +188,23 @@ h2{
 }
 @media only screen and (max-width: 540px){
     .wrapper{
-        
+        grid-template-columns: 1fr;
+        grid-template-rows: 3.5%;
+        grid-template-areas: 
+        "exp"
+        "exp-b1"
+        "exp-b2"
+        "exp-b3"
+        "exp-b4"
+        "exp-b5"
+        "skl"
+        "sk";
+        /* "exp skl"
+        "exp-b1 sk"
+        "exp-b2 sk"
+        "exp-b3 sk"
+        "exp-b4 sk"
+        "exp-b5 sk"; */
     }
 
 }

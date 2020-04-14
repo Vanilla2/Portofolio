@@ -1,3 +1,4 @@
+
 const but1 = document.getElementsByClassName("b1")[0];
 const but2 = document.getElementsByClassName("b2")[0];
 const but3 = document.getElementsByClassName("b3")[0];
