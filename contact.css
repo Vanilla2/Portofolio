@@ -1,0 +1,63 @@
+.wrapper{
+    margin-top: 30px;
+    display:grid;
+    grid-template-areas: 
+    "eml num abt"
+    "ghb twt abt";
+    grid-gap: 70px 20px;
+    grid-template-columns: repeat(3, 0.33fr);
+}
+.eml-box{
+    grid-area: eml;
+}
+.twt-box{
+    grid-area: twt;
+}
+.ghb-box{
+    grid-area: ghb;
+}
+.add-box{
+    grid-area: add;
+}
+.num-box{
+    grid-area: num;
+}
+.abt-box{
+    grid-area: abt;
+    margin: auto 0;
+}
+.abt .ds{
+    font-size: 20px;
+}
+body{
+    margin-left: 25px;
+}
+.wrapper div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fas{
+    color: rgb(88, 88, 88);
+    font-size: 70px;
+}
+.fa{
+    color: rgb(88, 88, 88);
+    font-size: 70px;
+}
+.ti{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.ds{
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}

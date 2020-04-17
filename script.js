@@ -38,5 +38,14 @@ but3.addEventListener("click", function(event){
 
 });
 but4.addEventListener("click", function(event){
-
+    for (i = 0; i < 4; i++){
+        buttons[i].classList.remove("red");
+        buttons[i].classList.remove("bigger");
+    }
+    for (i = 0; i < 4; i++){
+        frames[i].classList.add("hidden");
+    }
+    buttons[3].classList.add("red");
+    buttons[3].classList.add("bigger");
+    frames[3].classList.remove("hidden");
 });

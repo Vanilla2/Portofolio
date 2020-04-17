@@ -80,6 +80,10 @@ body{
     margin-bottom: 5px;
     text-decoration: none;
 }
+.hire{
+    cursor: pointer;
+    white-space: wrap;
+}
 .holder{
     font-size: 13px;
     margin-top: 5px;
@@ -108,7 +112,6 @@ body{
 }
 .third{
     grid-area: third;
-    
 }
 @media only screen and (max-width: 960px){
     .wrapper{

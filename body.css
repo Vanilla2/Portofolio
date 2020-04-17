@@ -80,6 +80,12 @@ button{
     height: 1200px;
     background-color: white;
 }
+.block-4{
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    background-color: white;
+}
 .design{
     font-family: 'Work Sans', sans-serif;
     color: rgb(154, 205, 250);
@@ -87,6 +93,7 @@ button{
     font-weight: 700;
     text-decoration: none;
 }
+
 @media only screen and (max-width: 995px){
     button{
         margin-left: 1.5%;
@@ -107,8 +114,8 @@ button{
         padding-right: 5px;
         padding-left: 5px;
         margin: 0 0 0 0;
-        font-size: 9px;
-        font-weight: 600;
+        font-size: 11px;
+        font-weight: 500;
     }
     .block-1{
         /* width: 100%; */
