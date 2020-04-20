@@ -93,7 +93,16 @@ button{
     font-weight: 700;
     text-decoration: none;
 }
-
+@media only screen and (max-width: 1030px){
+    .block-4{
+        height: 900px;
+    }
+}
+@media only screen and (max-width: 725px){
+    .block-4{
+        height: 1600px;
+    }
+}
 @media only screen and (max-width: 995px){
     button{
         margin-left: 1.5%;

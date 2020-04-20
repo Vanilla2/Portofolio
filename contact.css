@@ -52,6 +52,7 @@ body{
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 700;
+    white-space: nowrap;
 }
 .ds{
     font-family: 'Work Sans', sans-serif;
@@ -60,4 +61,34 @@ body{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 5px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 995px){
+    .wrapper{
+        /* "eml num abt"
+        "ghb twt abt"; */
+        grid-template-areas: 
+        "eml num"
+        "ghb twt"
+        "abt abt";
+        grid-gap: 70px 20px;
+        grid-template-columns: repeat(2, 0.5fr);
+    }
+}
+@media only screen and (max-width: 690px){
+    .wrapper{
+        /* "eml num abt"
+        "ghb twt abt"; */
+        grid-template-areas: 
+        "eml"
+        "num"
+        "ghb"
+        "twt"
+        "abt";
+        grid-template-columns: 1fr;
+    }
+
 }
