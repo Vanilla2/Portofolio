@@ -1,3 +1,6 @@
+.black{
+    color:black !important;
+}
 .wrapper{
     display:grid;
     grid-template-columns: 0.7fr 0.3fr;
@@ -40,76 +43,78 @@ body{
 }
 .skl-fill-1{
     width: 100%;
-    background: rgb(0,146,255);
+    background: rgb(83,126,255);
+    background: linear-gradient(135deg, rgba(83,126,255,1) 80%, rgba(255,255,255,1) 80%);
 }
 .skl-fill-2{
     width: 100%;
-    background: rgb(0,56,255);
+    background: rgb(0,37,147);
+    background: linear-gradient(135deg, rgba(0,37,147,1) 65%, rgba(255,255,255,1) 45%);
 }
 .skl-fill-3{
     width: 100%;
-    background: rgb(0, 179, 128);
-    background: linear-gradient(90deg, rgb(0, 156, 112) 15%, rgba(255,255,255,1) 61%);
+    background: rgb(255,61,41);
+    background: linear-gradient(135deg, rgba(255,61,41,1) 60%, rgba(255,255,255,1) 60%);
 }
 .skl-fill-4{
     width: 100%;
-    background: rgb(242,0,70);
-    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+    background: rgb(220,52,41);
+    background: linear-gradient(135deg, rgba(220,52,41,1) 60%, rgba(255,255,255,1) 60%);
 }
 .skl-fill-5{
     width: 100%;
-    background: rgb(98,255,161);
-    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+    background: rgb(50,134,220);
+    background: linear-gradient(135deg, rgba(50,134,220,1) 30%, rgba(248,138,2,1) 30%, rgba(248,138,2,1) 57%, rgba(121,114,227,1) 57%, rgba(121,114,227,1) 80%, rgba(255,255,255,1) 80%);
 }
 .skl-fill-6{
     width: 100%;
-    background: rgb(32,117,181);
-    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+    background: rgb(245,222,25);
+    background: linear-gradient(135deg, rgba(245,222,25,1) 50%, rgba(255,255,255,1) 50%);
 }
 .skl-fill-7{
     width: 100%;
-    background: rgb(172,22,83);
-    background: linear-gradient(90deg, rgba(172,22,83,1) 0%, rgba(255,255,255,1) 51%);
+    background: rgb(20,134,196);
+    background: linear-gradient(135deg, rgba(20,134,196,1) 40%, rgba(255,255,255,1) 40%);
 }
 .skl-fill-8{
     width: 100%;
-    background: rgb(0,37,147);
-    background: linear-gradient(90deg, rgba(0,37,147,1) 59%, rgba(255,255,255,1) 89%);
+    background: rgb(63,124,173);
+    background: linear-gradient(135deg, rgba(63,124,173,1) 36%, rgba(255,230,109,1) 36%, rgba(255,230,109,1) 70%, rgba(255,255,255,1) 70%);
 }
 .skl-fill-9{
     width: 100%;
-    background: rgb(242,0,70);
-    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+    background: rgb(50,222,132);
+    background: linear-gradient(135deg, rgba(50,222,132,1) 60%, rgba(255,255,255,1) 60%);   
 }
 .skl-fill-10{
     width: 100%;
-    background: rgb(98,255,161);
-    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+    background: rgb(255,197,16);
+    background: linear-gradient(135deg, rgba(255,197,16,1) 0%, rgba(255,103,30,1) 22%, rgba(0,209,157,1) 37%, rgba(15,96,237,1) 50%, rgba(255,255,255,1) 50%);
 }
 .skl-fill-11{
     width: 100%;
-    background: rgb(32,117,181);
-    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+    background: rgb(48,48,48);
+    background: linear-gradient(135deg, rgba(48,48,48,1) 0%, rgba(48,48,48,1) 20%, rgba(62,134,61,1) 20%, rgba(62,134,61,1) 40%, rgba(255,255,255,1) 40%);
 }
 .skl-fill-12{
     width: 100%;
-    background: rgb(0,37,147);
-    background: linear-gradient(90deg, rgba(0,37,147,1) 59%, rgba(255,255,255,1) 89%);
+    background: rgb(6,90,212);
+    background: linear-gradient(135deg, rgba(6,90,212,1) 60%, rgba(255,255,255,1) 60%);
 }
 .skl-fill-13{
     width: 100%;
-    background: rgb(242,0,70);
-    background: linear-gradient(90deg, rgba(242,0,70,1) 36%, rgba(255,255,255,1) 87%);
+    background: rgb(54,163,235);
+    background: linear-gradient(135deg, rgba(54,163,235,1) 80%, rgba(255,255,255,1) 80%);
 }
 .skl-fill-14{
     width: 100%;
-    background: rgb(98,255,161);
-    background: linear-gradient(90deg, rgba(98,255,161,1) 36%, rgba(255,255,255,1) 92%);
+    background: rgb(255,49,132);
+    background: linear-gradient(135deg, rgba(255,49,132,1) 5%, rgba(249,119,35,1) 27%, rgba(253,232,61,1) 56%, rgba(253,232,61,1) 80%, rgba(255,255,255,1) 80%);
 }
 .skl-fill-15{
     width: 100%;
-    background: rgb(32,117,181);
-    background: linear-gradient(90deg, rgba(32,117,181,1) 0%, rgba(255,255,255,1) 64%);
+    background: rgb(1,1,1);
+    background: linear-gradient(135deg, rgba(1,1,1,1) 70%, rgba(255,255,255,1) 70%);
 }
 
 .skl-obj{
