@@ -67,6 +67,7 @@ body{
     grid-row: 3 / 4;
     grid-area: c-inf;
     display: flex;
+    flex-direction: column;
 }
 .icon{
     color:black;
@@ -138,6 +139,7 @@ body{
     .links{
         display: flex;
         margin-bottom: 20px;
+        justify-content: space-between;
     }
     .links a{
         border-top: 0.5px solid rgb(230, 230, 230);

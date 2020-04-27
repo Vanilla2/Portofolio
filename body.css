@@ -1,5 +1,5 @@
 body{
-    background-image: url("background.png");
+    background-image: url("https://cdn.discordapp.com/attachments/558386070094479390/704361638030999662/ian-dooley-DJ7bWa-Gwks-unsplash_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -73,11 +73,18 @@ button{
     width: 100%;
     max-width: 1200px;
     height: 400px;
+    background-color: white;
 }
 .block-2{
     width: 100%;
     max-width: 1200px;
     height: 1200px;
+    background-color: white;
+}
+.block-3{
+    width: 100%;
+    max-width: 1200px;
+    height: 800px;
     background-color: white;
 }
 .block-4{
