@@ -33,7 +33,7 @@ but2.addEventListener("click", function(event){
     }
     buttons[1].classList.add("red");
     buttons[1].classList.add("bigger");
-    frames[1].classList.remove("hidden");
+    frames[1].classList.remove("hidden");//
 });
 but3.addEventListener("click", function(event){
     for (i = 0; i < 4; i++){
