@@ -1,53 +1,109 @@
-.project{
-    display:flex;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-    border-radius: 15px;
-}
-.p-img{
-    border-radius: 5px;
-    max-height: 300px;
-    margin-right: 15px;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
-}
-.p-img:hover{
-    max-height: 500px;
-}
-.desc{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.p-desc{
-    margin-bottom: 45px;
-    font-size: 20px;
-}
-.title{
-    margin-top: 15px;
-    margin-bottom: 16px;
-    align-self: center;
-    font-size: 45px;
-    color: #555;
-    letter-spacing: 3px;
-}
-.img{
-    display: flex;
-    margin: 10px 0 10px 10px;
-}
 body{
     font-family: 'Work Sans', sans-serif !important;
 }
-.tags{
-    display: flex;
+.wrapper{
+    display: grid;
+    grid-template-columns: 0.49fr 0.49fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "p1 p2";
 }
-.tag{
-    padding: 8px;
-    margin-right: 15px;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
-    border-radius: 5px;
+.project{
+    display:flex;
+    border: 0.5px solid rgb(226, 226, 226);
+    border-radius: 15px;
+}
+.prj{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.p-1{
+    height: 400px;
+    grid-area: p1;
+    background: url("img/kalimaty_cover.png") no-repeat center;
+    background-size: contain ;
+    /* max-width: 460px; */
+}
+.p-2{
+    height: 400px;
+    grid-area: p2;
+    background: url("img/7sab_cover.png") no-repeat center;
+    background-size: contain ; 
+}
+.anim{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.test{
+    animation-name: show;
+    animation-duration: 4s;
+}
+
+.name{
+    margin: 0 auto;
+    font-size: 30px;
+    opacity: 0;
+    transition: padding-top 0.5s, opacity 0.5s;
+}
+.used{
+    margin: 0 auto;
+    opacity: 0;
+    transition: padding-top 0.5s, opacity 0.5s;
+    font-size: 25px;
+    color:rgb(250, 72, 117);
+    letter-spacing: 2.1px;
+}
+.but{
+    opacity: 0;
+    align-self: center;
+    margin-top: 100px;
+    background-color: transparent;
+    transition: margin-top 1.0s, opacity 0.5s;
+     /* transition-delay: 0.5s;  */
+    border:none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    border: 1.8px solid rgb(250, 72, 117);
+}
+.anim-1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.anim{
+    opacity: 0;
+}
+.prj:hover .name{
+    padding-top: 100px;
+    opacity: 100 !important;
+}
+.prj:hover .used{
+    padding-top: 20px;
+    opacity: 100 !important;
+}
+.prj:hover .but{
+    margin-top: 40px;
+    opacity: 100 !important;
+}
+.prj:hover{
+    /* background: none; */
+    background: transparent;
+    animation-name: hide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards; 
+}
+@keyframes hide{
+    to{
+        background: rgb(238, 238, 238) no-repeat center;
+    } 
 }
