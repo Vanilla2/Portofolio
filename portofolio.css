@@ -61,11 +61,12 @@ body{
     letter-spacing: 2.1px;
 }
 .but{
+    cursor: pointer;
     opacity: 0;
     align-self: center;
     margin-top: 100px;
     background-color: transparent;
-    transition: margin-top 1.0s, opacity 0.5s;
+    transition: margin-top 0.7s, opacity 0.5s;
      /* transition-delay: 0.5s;  */
     border:none;
     border-radius: 10px;
@@ -106,4 +107,28 @@ body{
     to{
         background: rgb(238, 238, 238) no-repeat center;
     } 
+}
+@media only screen and (max-width: 960px){
+    .prj{
+        max-width: 570px;
+        margin:0 auto;
+    }
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "p1"
+        "p2";
+    }
+}
+@media only screen and (max-width: 540px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "p1"
+        "p2";
+    }
+    .used{
+        font-size: 18px;
+    }
+
 }

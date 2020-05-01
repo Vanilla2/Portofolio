@@ -124,6 +124,9 @@ button{
     .block-2{
         height: 1400px;
     }
+    .block-3{
+        height: 900px;
+    }
 }
 @media only screen and (max-width: 575px){
     button{
