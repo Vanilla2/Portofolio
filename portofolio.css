@@ -103,6 +103,17 @@ body{
     animation-duration: 0.5s;
     animation-fill-mode: forwards; 
 }
+.wrapper{
+    opacity: 0;
+    animation-name: show;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes show{
+    to{
+        opacity: 100%;
+    }
+}
 @keyframes hide{
     to{
         background: rgb(238, 238, 238) no-repeat center;
